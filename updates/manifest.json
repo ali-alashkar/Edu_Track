@@ -1,20 +1,33 @@
 {
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.1.3",
   "minimumSupportedVersion": "1.0.0",
   "releaseDate": "2026-09-11",
-  "mandatoryUpdateDate": null,
-  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.0.0/EduTrack-1.0.0-update.zip",
-  "checksum": "sha256:REPLACE_WITH_ACTUAL_SHA256_HASH_OF_THE_ZIP_FILE",
+  "mandatoryUpdateDate": "2026-09-18",
+  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.1.3/EduTrack-1.1.3-update.zip",
+  "checksum": "sha256:192B0744EBEB066A77A84224368DA876638A7C9A8C83E854E397C801728AC3E9",
   "releaseNotes": {
     "newFeatures": [
-      "Initial release of EduTrack"
+      "Production Auto-Update System with live download progress and SHA-256 integrity verification",
+      "WhatsApp Queue Cancellation: Cancel single messages or batch-cancel all queued messages for any session",
+      "Session-Specific Message Counters: Sent and queued statistics now dynamically filter by the selected session",
+      "Interactive 'What's New' changelog modal displayed on first launch after an update"
     ],
-    "bugFixes": [],
-    "improvements": [],
+    "improvements": [
+      "Zero-Data-Loss updates: Database (edutrack_data), backups, and WhatsApp login sessions are 100% preserved",
+      "Detailed WhatsApp delivery failure reasons (unregistered number, invalid phone length, disconnected service)",
+      "Automatic update safety rollback if a new version fails verification or startup",
+      "Optimized background WhatsApp queue processing and retry handling"
+    ],
+    "bugFixes": [
+      "Fixed WhatsApp disconnects by extending Puppeteer protocol timeouts to 120s",
+      "Fixed duplicate message dispatch for attendance and session summary notifications",
+      "Fixed system clock manipulation vulnerability with server-time sync and offline grace counters",
+      "Fixed message queue state desynchronization between the database and UI"
+    ],
     "futureFeatures": [
-      "Advanced analytics dashboard",
-      "Parent results portal",
-      "Multi-language support"
+      "Advanced Student Performance & Grade Analytics Dashboard",
+      "Parent Online Portal for live attendance & grades",
+      "Multi-Language Interface (Full English & Arabic support)"
     ]
   }
 }

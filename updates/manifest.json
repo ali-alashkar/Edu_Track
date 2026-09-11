@@ -4,7 +4,7 @@
   "releaseDate": "2026-09-11",
   "mandatoryUpdateDate": "2026-09-18",
   "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.1.4/EduTrack.v1.1.4.zip",
-  "checksum": "sha256:289CE064E29FAC4E7C14FE42949B51CB60BAFD4B70B7FB30B41B6382071BFA32",
+  "checksum": "sha256:562741AEABAF925BCCFD1B86B04694D18F0E2E5482D69CDE0421107E01E99B5E",
    "releaseNotes": {
     "newFeatures": [
       "Zero-Latency Startup: App now opens instantly (< 0.5s) in both online and offline environments",

@@ -1,0 +1,20 @@
+{
+  "latestVersion": "1.0.0",
+  "minimumSupportedVersion": "1.0.0",
+  "releaseDate": "2026-09-11",
+  "mandatoryUpdateDate": 2026-09-18,
+  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.0.0/EduTrack-1.0.0-update.zip",
+  "checksum": "sha256:REPLACE_WITH_ACTUAL_SHA256_HASH_OF_THE_ZIP_FILE",
+  "releaseNotes": {
+    "newFeatures": [
+      "Initial release of EduTrack"
+    ],
+    "bugFixes": [],
+    "improvements": [],
+    "futureFeatures": [
+      "Advanced analytics dashboard",
+      "Parent results portal",
+      "Multi-language support"
+    ]
+  }
+}

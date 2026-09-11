@@ -2,7 +2,7 @@
   "latestVersion": "1.0.0",
   "minimumSupportedVersion": "1.0.1",
   "releaseDate": "2026-09-11",
-  "mandatoryUpdateDate": "2026-09-18",
+  "mandatoryUpdateDate": null,
   "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.0.0/EduTrack-1.0.0-update.zip",
   "checksum": "sha256:REPLACE_WITH_ACTUAL_SHA256_HASH_OF_THE_ZIP_FILE",
   "releaseNotes": {

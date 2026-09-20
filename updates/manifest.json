@@ -4,22 +4,23 @@
   "releaseDate": "2026-09-20",
   "mandatoryUpdateDate": null,
   "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.1.5/EduTrack-1.1.5-update.zip",
-  "checksum": "CFD8C7210E67CDF52DD26F8BA88EE642FF25ECF13DDFA3109F1BE46F89936FD0",
-  "releaseNotes": {
+  "checksum": "EF1107920810D679C47A4E27803F11309EA14BA4AEC5EED88285494C552F1DE1",
+"releaseNotes": {
     "newFeatures": [
-      "Smart WhatsApp Multi-Browser Support: Automatically detects Google Chrome, Microsoft Edge, and Brave across standard and custom paths",
-      "Native Browser Executable Picker: Browse and select any chrome.exe or msedge.exe directly from disk",
-      "Cloud Sync Diagnostic Engine: Automatically categorizes sync errors (Session Expired, Invalid Credentials, Drive Full, Network Timeout) with instant fix guidance"
+      "Smart Install: Update now automatically installs into a new versioned folder (e.g. Edu-track v1.1.5) instead of overwriting the old one",
+      "Multi-Browser WhatsApp Support: Auto-detects Chrome, Edge, and Brave — or lets you pick a custom browser path",
+      "Shortcut Auto-Update: Desktop and Start Menu shortcuts are automatically repointed to the new version after update"
     ],
     "improvements": [
-      "Fail-Fast WhatsApp Pre-flight: Zero-delay startup error feedback instead of hanging on infinite loading spinner when browser is missing",
-      "Added immediate Cancel button while WhatsApp Web is connecting or waiting for QR scan",
-      "Automatic safe disconnect on expired Google OAuth tokens to prevent continuous failed background sync requests",
-      "Real-time browser detection badge in WhatsApp Settings and Connection tab"
+      "App data, database, and WhatsApp sessions are seamlessly migrated to the new versioned folder during update",
+      "Old version folder is cleanly removed after a successful update — no leftover clutter",
+      "Google OAuth now uses a secure local loopback server, eliminating the 'Error 400: invalid_request' on sync",
+      "App no longer triggers First-Time Setup when launched from a temporary folder during update"
     ],
     "bugFixes": [
-      "Fixed issue where WhatsApp integration froze indefinitely on systems with Chrome in non-standard paths or Edge-only Windows installs",
-      "Fixed sync error obscurity by tracking and displaying human-readable root causes in the UI"
+      "Fixed app startup delay caused by WhatsApp browser detection searching a single hard-coded Chrome path",
+      "Fixed Setup Wizard appearing after every update due to incorrect data directory detection",
+      "Fixed Google OAuth login failing with Error 400 invalid_request"
     ],
     "futureFeatures": [
       "Advanced Student Performance & Grade Analytics Dashboard",

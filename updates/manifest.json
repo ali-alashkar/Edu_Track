@@ -1,30 +1,30 @@
 {
-  "latestVersion": "1.1.4",
+  "latestVersion": "1.2.0",
   "minimumSupportedVersion": "1.0.0",
-  "releaseDate": "2026-09-20",
+  "releaseDate": "2026-10-01",
   "mandatoryUpdateDate": null,
-  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.1.5/EduTrack-1.1.5-update.zip",
-  "checksum": "EF1107920810D679C47A4E27803F11309EA14BA4AEC5EED88285494C552F1DE1",
+  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.2.0/EduTrack-1.2.0-update.zip",
+  "checksum": "820B108139B1B06B78A0C8425A5EA26ABCC16E1D25D179DE0BBE569A41BEA997",
   "releaseNotes": {
     "newFeatures": [
-      "Smart Install: Update now automatically installs into a new versioned folder (e.g. Edu-track v1.1.5) instead of overwriting the old one",
-      "Multi-Browser WhatsApp Support: Auto-detects Chrome, Edge, and Brave — or lets you pick a custom browser path",
-      "Shortcut Auto-Update: Desktop and Start Menu shortcuts are automatically repointed to the new version after update"
+      "Session Financial Properties: View detailed money flow per session — including who attended with a discount, the center's revenue percentage, and the exact amount owed per student",
+      "Individual WhatsApp Messaging: Send personalized WhatsApp messages to individual students directly from the student profile",
+      "WhatsApp Template Variables: Added session notes and quiz notes as dynamic placeholders ({session_notes}, {quiz_notes}) in WhatsApp message templates",
+      "WhatsApp Template Sync: Templates are now synchronized across all devices via cloud sync, ensuring all assistants use the same messaging templates",
+      "Inactive Student Category: Students who have not attended for more than one month are automatically blocked and placed in a dedicated 'Inactive' category on the Students page"
     ],
     "improvements": [
-      "App data, database, and WhatsApp sessions are seamlessly migrated to the new versioned folder during update",
-      "Old version folder is cleanly removed after a successful update — no leftover clutter",
-      "Google OAuth now uses a secure local loopback server, eliminating the 'Error 400: invalid_request' on sync",
-      "App no longer triggers First-Time Setup when launched from a temporary folder during update"
+      "Auto-Block Invalid Parent Phones: Automatically blocks a parent's WhatsApp number if it has no WhatsApp account, is too short, or too long — preventing repeated failed send attempts",
+      "Attendance Date Validation: Prevents the last 2 sessions of a group from being scheduled for today's date, avoiding accidental duplicate sessions",
+      "Message Status Live Update: Message delivery status now updates in real-time without requiring the user to re-click or refresh the page"
     ],
     "bugFixes": [
-      "Fixed app startup delay caused by WhatsApp browser detection searching a single hard-coded Chrome path",
-      "Fixed Setup Wizard appearing after every update due to incorrect data directory detection",
-      "Fixed Google OAuth login failing with Error 400 invalid_request"
+      "Fixed WhatsApp message status not refreshing automatically after sending",
+      "Fixed edge cases where inactive student auto-blocking could conflict with manual block operations",
+      "Fixed session financial calculations when discount overrides are applied mid-session"
     ],
     "futureFeatures": [
       "Advanced Student Performance & Grade Analytics Dashboard",
-      "Parent Online Portal for live attendance & grades",
       "Multi-Language Interface (Full English & Arabic support)"
     ]
   }

@@ -1,10 +1,10 @@
 {
-  "latestVersion": "1.1.5",
+  "latestVersion": "1.2.0",
   "minimumSupportedVersion": "1.0.0",
   "releaseDate": "2026-10-01",
   "mandatoryUpdateDate": null,
   "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.2.0/EduTrack-1.2.0-update.zip",
-  "checksum": "820B108139B1B06B78A0C8425A5EA26ABCC16E1D25D179DE0BBE569A41BEA997",
+  "checksum": "E47D5F52960B9BCBD43BB657671B26C0C81A512E5B05D2573DAE5BCC697401A7",
   "releaseNotes": {
     "newFeatures": [
       "Session Financial Properties: View detailed money flow per session — including who attended with a discount, the center's revenue percentage, and the exact amount owed per student",
@@ -21,7 +21,8 @@
     "bugFixes": [
       "Fixed WhatsApp message status not refreshing automatically after sending",
       "Fixed edge cases where inactive student auto-blocking could conflict with manual block operations",
-      "Fixed session financial calculations when discount overrides are applied mid-session"
+      "Fixed session financial calculations when discount overrides are applied mid-session",
+      "Fixed sending WhatsApp Announcment in the Bulck action"
     ],
     "futureFeatures": [
       "Advanced Student Performance & Grade Analytics Dashboard",

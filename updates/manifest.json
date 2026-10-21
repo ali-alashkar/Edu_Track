@@ -1,32 +1,36 @@
 {
-  "latestVersion": "1.1.5",
+  "latestVersion": "1.3.0",
   "minimumSupportedVersion": "1.0.0",
-  "releaseDate": "2026-10-01",
   "mandatoryUpdateDate": null,
-  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.2.0/EduTrack-1.2.0-update.zip",
-  "checksum": "E47D5F52960B9BCBD43BB657671B26C0C81A512E5B05D2573DAE5BCC697401A7",
+  "releaseDate": "2026-10-21",
   "releaseNotes": {
     "newFeatures": [
-      "Session Financial Properties: View detailed money flow per session — including who attended with a discount, the center's revenue percentage, and the exact amount owed per student",
-      "Individual WhatsApp Messaging: Send personalized WhatsApp messages to individual students directly from the student profile",
-      "WhatsApp Template Variables: Added session notes and quiz notes as dynamic placeholders ({session_notes}, {quiz_notes}) in WhatsApp message templates",
-      "WhatsApp Template Sync: Templates are now synchronized across all devices via cloud sync, ensuring all assistants use the same messaging templates",
-      "Inactive Student Category: Students who have not attended for more than one month are automatically blocked and placed in a dedicated 'Inactive' category on the Students page"
+      "Professional Next-Next-Next Setup Installer: Interactive NSIS installation wizard with custom destination folder, automatic migration of student data (edutrack_data & backups), and clean removal of previous versions.",
+      "Quick Student Registration in Attendance: Instantly register and enroll a new student directly from the attendance session page without losing your workflow.",
+      "Group Mismatch Alert in Attendance: Displays a clear warning dialog if a student being checked in belongs to a different group than the active session.",
+      "Late Mode Check-in Rule: Toggling 'Late Mode' marks only future incoming attendees as late during the active session, leaving already-attended students unaffected.",
+      "Session Financial Properties: View detailed money flow per session — including who attended with a discount, the center's revenue percentage, and the exact amount owed per student.",
+      "Individual WhatsApp Messaging: Send personalized WhatsApp messages to individual students directly from their profile."
     ],
     "improvements": [
-      "Auto-Block Invalid Parent Phones: Automatically blocks a parent's WhatsApp number if it has no WhatsApp account, is too short, or too long — preventing repeated failed send attempts",
-      "Attendance Date Validation: Prevents the last 2 sessions of a group from being scheduled for today's date, avoiding accidental duplicate sessions",
-      "Message Status Live Update: Message delivery status now updates in real-time without requiring the user to re-click or refresh the page"
+      "Seamless Data Migration: Zero data loss during app updates — databases, config, and backups automatically transfer to new install directories.",
+      "Enhanced Attendance Verification: Real-time confirmation prevents accidental cross-group attendance entries.",
+      "Auto-Block Invalid Parent Phones: Automatically blocks WhatsApp numbers that are formatted improperly or lack WhatsApp accounts.",
+      "Message Status Live Update: Delivery status now refreshes in real-time without needing page reloads."
     ],
     "bugFixes": [
-      "Fixed WhatsApp message status not refreshing automatically after sending",
-      "Fixed edge cases where inactive student auto-blocking could conflict with manual block operations",
-      "Fixed session financial calculations when discount overrides are applied mid-session",
-      "Fixed sending WhatsApp Announcment in the Bulck action"
+      "Fixed Late Mode applying retrospectively to already attended students.",
+      "Fixed WhatsApp message status not refreshing automatically after sending.",
+      "Fixed edge cases where inactive student auto-blocking could conflict with manual block operations.",
+      "Fixed session financial calculations when discount overrides are applied mid-session."
     ],
     "futureFeatures": [
       "Advanced Student Performance & Grade Analytics Dashboard",
+      "Parent Online Portal for live attendance & grades",
       "Multi-Language Interface (Full English & Arabic support)"
     ]
-  }
+  },
+  "setupUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.3.0/EduTrack-Setup-1.2.0.exe",
+  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.3.0/EduTrack-Setup-1.2.0.exe",
+  "checksum": "sha256:bb816bd1aaf88b74ba980b675dc9cb930f68a333c0314916de43ad2439815040"
 }

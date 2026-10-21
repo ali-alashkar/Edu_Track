@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.2.0",
+  "latestVersion": "1.3.0",
   "minimumSupportedVersion": "1.0.0",
   "mandatoryUpdateDate": null,
   "releaseDate": "2026-10-21",
@@ -30,7 +30,7 @@
       "Multi-Language Interface (Full English & Arabic support)"
     ]
   },
-  "setupUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.3.0/EduTrack-Setup-1.2.0.exe",
-  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.3.0/EduTrack-Setup-1.2.0.exe",
-  "checksum": "sha256:bb816bd1aaf88b74ba980b675dc9cb930f68a333c0314916de43ad2439815040"
+  "setupUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.3.0/EduTrack-Setup-1.3.0.exe",
+  "downloadUrl": "https://github.com/ali-alashkar/Edu_Track/releases/download/v1.3.0/EduTrack-Setup-1.3.0.exe",
+  "checksum": "sha256:703c6282350003c3886441634780f2d35569839c2805159431db9b2ce006c37e"
 }
